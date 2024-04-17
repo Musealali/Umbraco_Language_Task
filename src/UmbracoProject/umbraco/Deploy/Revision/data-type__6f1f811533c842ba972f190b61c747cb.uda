@@ -1,0 +1,13 @@
+{
+  "Name": "Language - Language ISO code - UmbracoLanguagePicker",
+  "Alias": "",
+  "EditorAlias": "UmbracoLanguagePicker",
+  "Configuration": {
+    "uniqueFilter": "1",
+    "allowNull": "0"
+  },
+  "Udi": "umb://data-type/6f1f811533c842ba972f190b61c747cb",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "13.1.0"
+}

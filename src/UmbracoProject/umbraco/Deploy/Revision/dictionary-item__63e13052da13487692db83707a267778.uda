@@ -1,0 +1,42 @@
+{
+  "Name": "umb://dictionary-item/63e13052da13487692db83707a267778",
+  "Alias": "",
+  "ItemKey": "SortLanguagesPrompt",
+  "Translations": [
+    {
+      "Key": "63e13052-da13-4876-92db-83707a267778",
+      "Value": "قم بفرز وإضافة اللغات التي يمكنك قراءتها، حسب التفضيل",
+      "LanguageIsoCode": "ar"
+    },
+    {
+      "Key": "63e13052-da13-4876-92db-83707a267778",
+      "Value": "Sorter og tilføj de sprog, du kan læse, i præferencerækkefølge",
+      "LanguageIsoCode": "da"
+    },
+    {
+      "Key": "63e13052-da13-4876-92db-83707a267778",
+      "Value": "Sort and add the languages you can read, in order of preference",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/63e13052da13487692db83707a267778",
+  "Dependencies": [
+    {
+      "Udi": "umb://language/ar",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/da",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "13.1.0"
+}

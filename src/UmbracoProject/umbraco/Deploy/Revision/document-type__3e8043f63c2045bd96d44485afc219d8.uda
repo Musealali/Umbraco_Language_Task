@@ -1,0 +1,38 @@
+{
+  "Name": "Language",
+  "Alias": "language",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-item-arrangement",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "a801486c-2314-414e-a546-3da6e4aef626",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "29cd3fb7-b045-4201-8168-e41166611171",
+          "Alias": "languageISOCode",
+          "DataType": "umb://data-type/6f1f811533c842ba972f190b61c747cb",
+          "Name": "Language ISO code"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/3e8043f63c2045bd96d44485afc219d8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/6f1f811533c842ba972f190b61c747cb",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

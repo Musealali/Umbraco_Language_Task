@@ -1,0 +1,32 @@
+{
+  "Deploy": {
+    "Project": {
+      "Name": "language task muslim",
+      "Alias": "language-task-muslim",
+      "Id": "fb83e731-8038-49a7-b390-66e19c10ceff",
+      "Workspaces": [
+        {
+          "Id": "6aa235d3-b07a-45ea-8223-22bc20a22462",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-language-task-muslim.euwest01.umbraco.io"
+        },
+        {
+          "Id": "957e773b-424f-4946-8d73-6ddd59b16352",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://language-task-muslim.euwest01.umbraco.io"
+        }
+      ]
+    },
+    "Settings": {
+      "ApiKey": "EDB2377EEC56E93E3113ECDA95EF7DAB7A6185FF"
+    }
+  },
+  "Identity": {
+    "ClientId": "0297c0f6-83ad-4481-9ae2-07a3f5475333",
+    "ClientSecret": "Q5~T526ixOHlj47lg7Mu7_.zN1fK.7ua.9",
+    "EnvironmentId": "957e773b-424f-4946-8d73-6ddd59b16352",
+    "LocalLoginRedirectUri": "https://redirect.identity.umbraco.com"
+  }
+}
